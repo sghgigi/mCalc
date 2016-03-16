@@ -1,0 +1,89 @@
+@CHARSET "ISO-8859-1";
+legend
+  {
+    font-size: 110%;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #09C;
+    color: #fff;
+  }
+  
+  
+  td 
+  {
+    text-align: center;
+  	font-size: 10px;
+  }
+  
+  form.form 
+  {
+    width:275px;;
+    background: -webkit-gradient(linear, bottom, left 35%, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 35%);
+    margin:auto;
+    background-color: #dddddd;	
+    font-family: Calibri, Ariel, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: #09C;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  label
+  {
+    display: block;
+    margin-top: 16px;
+  }
+  
+  em
+  {
+     color: red;
+     font-size: 10px;
+  }
+
+  label.radio, input.radio 
+  {
+    display: inline; 
+  }
+  
+  #error
+  {
+  	 background-color: red;
+  	 color: white;
+  	 text-align: center;
+  }
+  
+  #sub
+  {
+     font-size: 10px;
+  }
+  
+input#bigbutton {
+background: #3e9cbf; /*the colour of the button*/
+/*style the text*/
+font-size: 15px;
+
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#bigbutton:hover, input#bigbutton:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
