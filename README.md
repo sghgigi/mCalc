@@ -3,7 +3,7 @@
 <body>
 
 <H3>What</H3>
-<p>Mortgage Calculator. (First Project for CSE4413)</p>
+<p>Mortgage Calculator. (First Project for CSE4413-Building eCommerce Systems)</p>
 
 <H3>Mortgage Calculator</H3>
 <p><a href="https://github.com/sghgigi/mCalc/blob/master/mcalc.png" target="_blank"><img src="https://github.com/sghgigi/mCalc/blob/master/mcalc.png" alt="mCalc image" title="mCalc" style="max-width:100%;"></a></p>
